@@ -51,7 +51,7 @@ public class sqljava {
 		
 		// Insert Data  6th step
 		
-		//String query = "Insert into ADIT values((1,'Pooja','pooja@gmail.com')";
+		//String query = "Insert into ADIT values(1,'Pooja','pooja@gmail.com')";
 //	    String query = "Insert into ADIT values(2,'Princy','princy@gmail.com'), (3,'bulbul', 'bulbul@gmail.com'), (4,'Neha','neha@gmail.com')";
 //	    Statement st = conn.createStatement();
 //	    st.executeUpdate(query);
