@@ -70,6 +70,64 @@ public class sqljava {
 		while(res.next()) {
 			System.out.println(res.getInt("id")+ "-" + res.getString("name") +" -" + res.getString("mail"));
 		}
+
+
 		
+		 // 8th Step
+	    
+	    //Update data in the table
+		
+//	    String  query = "update ADIT set name='Anshi' where id= 2";
+//	    String  query = "update ADIT set mobile=4357892334 where id= 4";      //update mobile number
+//	    Statement st = conn.createStatement();
+//	    st.execute(query);
+//		System.out.println("Data is Updated.");
+//	    
+	    
+	    //Delete data     9th Step
+	   
+//         String query = "delete from ADIT where name ='Anshi'";
+//         Statement st = conn.createStatement();
+// 	   st.execute(query);
+//         System.out.println("Deleted data Successfully...");
+	    
+	    
+//	    //  Add new Column   10th Step 
+	    
+	    
+//	    String query= "alter table ADIT add mobile int ";
+//	    Statement st = conn.createStatement();
+//	    st.execute(query);
+//	    System.out.println("Added Successfully...");
+	    
+	    
+	    
+	    //drop database or table
+	    
+//       String query = "drop table  adit";
+//     	 Statement st = conn.createStatement();
+//	 st.execute(query);	
+//	 System.out.println("Deleted Successfully");
+//	    		
+	    		
+	   //delete any column   11th step
+	    
+//	String query = "alter table ADIT drop column mobile";
+//	Statement st = conn.createStatement();
+//	st.execute(query);
+//	System.out.println("Deleted Column Successfully..");
+//	   
+	    
+	  
+	    //Fetching data from the table
+	    
+//      String query = "select * from ADIT where age= 22";
+//      Statement st = conn.createStatement();
+//      ResultSet a = st.executeQuery(query);
+//      System.out.println("Name  - AGE - MAIL");
+//      while(a.next()) {
+//    	 System.out.println(a.getString("name")+ "-"+a.getInt("age")+"-"+a.getString("mail"));
+//     }
+	    
 	   }
 	}
